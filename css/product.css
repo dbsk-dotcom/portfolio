@@ -1,0 +1,23 @@
+@charset "utf=8";
+
+#main .main_banner { background: url(../sub/image/pro_mainbg.jpg) no-repeat center center / cover; }
+#main .main_banner div h2 {  font-weight: 600; font-size: 120px; padding: 650px 0 0 200px; }
+
+#main .pro ul { padding: 150px 0 75px 30px; max-width: 1500px; display: flex; gap: 200px; font-family: Inria Serif; }
+#main .pro ul li a { transition: all 0.5s; font-size: 30px; color: #999;   }
+#main .pro ul li a:hover { color: #000; font-weight: 700; }
+
+#main .product ul { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 50px; }
+#main .product ul li {  width: calc((100% - 100px ) / 3); }
+#main .product ul li dl {text-align: center; }
+
+#main .product ul li dl dt { font-family: Inria Serif; font-weight: 700; font-size: 20px; }
+#main .product ul li dl dd { font-family: Inria Serif; color: #999; font-size: 18px; }
+#main .product ul li dl dd span { font-size: 23px; font-weight: 700; color: red; }
+
+.btn { padding: 200px 0 150px; display: flex; justify-content: center; text-align: center; align-items: center; gap: 120px; }
+.btn p { font-family: Inria Serif; font-size:  25px; color: #999; }
+.btn p:active { color: #000; }
+.btn button { background:  #fff; cursor: pointer; }
+.btn .befotre { font-size: 0; width: 60px; height: 60px;  background: url(../sub/image/before_btn.png) no-repeat center center / contain ; }
+.btn .after { font-size: 0; width: 60px; height: 60px;  background: url(../sub/image/after_btn.png) no-repeat center center / contain ; }

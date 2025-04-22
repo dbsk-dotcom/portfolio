@@ -1,0 +1,53 @@
+@charset "utf-8";
+#main .hea { padding-top: 10px; background: url(../image/s_main.jpg) no-repeat center -250px; width: 1920px; height: 1100px ; }
+#main .hea .a img { filter: invert(60%); }
+#main .with { position: relative; margin-top: 300px; } 
+#main .with .inner { display: flex; justify-content: space-between; }
+#main .with .txt {text-align: center; position: absolute; top: 300px; left: 500px; }
+#main .with .txt h2 { font-size: 100px; font-weight: 700; }
+#main .with .txt dl dt {padding: 80px 0 20px; font-family: Inria Serif; font-size: 20px; }
+#main .with .txt dl dd {   font-family: Inria Serif; }
+#main .with .pic_1 { margin-top: 160px; }
+#main .with .pic_2 { width: 460px; height: 499px; }
+#header .a a { filter: invert(60%); }
+
+
+#main .our { margin-top: 300px; }
+#main .our .inner { display: flex; justify-content: space-between; }
+#main .our .inner .txt h2 { font-size: 180px; }
+#main .our .txt dl dt {padding: 80px 0 20px; font-family: Inria Serif; font-size: 20px; }
+#main .our .txt dl dd {   font-family: Inria Serif; }
+#main .our .inner img { width: 800px; height: 1000px ; }
+@keyframes ani {
+  0% {
+    transform: translateX(-1920px);
+  }
+
+  100% {
+    transform: translateX(1920px);
+  }
+}
+
+#main .you { margin-top: 500px; text-align: center; }
+#main .you h2 { font-size: 100px; }
+#main .you p {  font-family: Inria Serif;  padding: 100px 0 400px; }
+
+#main .for .inner h2 { position: relative; z-index: 99; font-size: 100px; text-align: end; padding: 150px 80px 0 0; }
+#main .for .inner .img { display: flex; justify-content: space-between; }
+#main .for .inner .img .img_1 { margin-top: -400px; width: 50%; object-fit: cover; }
+#main .for .inner .img .img_2 { margin-top: 60px; width: 596px; height: 872px; }
+
+#main  .txt .inner  { width: 1500px; padding: 500px 0 650px; font-family: Inria Serif; display: flex; gap: 500px; }
+#main  .txt .inner .left dt { padding-bottom: 27px; font-size: 38px; font-weight: 700; }
+#main  .txt .inner .left dd { line-height: 2; font-size: 18px; }
+#main  .txt .inner .right dt { padding-bottom: 27px; font-size: 38px; font-weight: 700; }
+#main  .txt .inner .right dd { line-height: 2; font-size: 18px; }
+
+#main .beauty h2 { width: 100%; position: absolute; top: 7300px; left: 0; color: #cccccc;  font-size: 15rem; }
+#main .beauty h2 div { animation: ani 25s infinite linear; }
+
+#main .product { padding-bottom: 180px; background: #eeeeee; }
+#main .product h2 { padding: 130px 0 90px; font-size: 120px; }
+#main .product .pic { display: flex; justify-content: space-between; }
+
+
