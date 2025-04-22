@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body { font-family: "Inria "; font-size: 1.6rem; line-height: 1.5; color: #333; overflow-x: hidden; }
+.inner { max-width: 1640px; margin: 0 auto; padding: 0 20px; }
+
+#header .inner { max-width: 1700px; display: flex; justify-content: space-between; align-items: center; }
+#header .left { align-items: center; display: flex; gap: 50px; justify-content: left; }
+#header .left h1 a img { display: block; }
+#header .left .gnb { align-items: center; display: flex; gap: 50px; justify-content: left; }
+#header .right .login { display: flex; gap: 30px; align-items: center;  }
+#header .right .login .lo { transition: all 0.5s; padding: 5px 10px; background: #7498cc; border-radius: 7px; }
+#header .right .login .lo:hover { padding: 7px 13px;  }
+#header .right .login .gin {transition: all 0.5s; background: #d9d9d9;  padding: 5px 10px; border-radius: 7px;}
+#header .right .login .gin:hover { padding: 7px 13px; }
+
+
+#footer { background: #383a49; color: #fff; }
+#footer .inner { max-width: 1110px; display: flex; justify-content: space-between; padding: 20px 0 40px 0; }
+#footer .footer_left { padding: 30px 0 0; }
+#footer .footer_left select { cursor: pointer; padding: 12px 20px 12px 15px; font-size: 15px; border: 1px solid #fff; background: #383a49; color: #fff; }
+#footer .footer_left .pp { padding: 25px 0 ; display: flex; gap: 20px; font-size: 15px;  }
+#footer .footer_left .img ul { display: flex; gap: 10px; }
+#footer .footer_left .img ul li a img { border-radius: 5px; width: 40px; object-fit: contain; }
+
+#footer .footer_right h2 { font-size: 18px; font-weight: 300; padding: 35px 0 25px; }
+#footer .footer_right .impormation { font-size: 15px; font-weight: 300; display: flex; gap: 30px; }
+#footer .footer_right .impormation .im { color: rgba(255, 255, 255, 0.5); }
+#footer .footer_right .impormation .im li { padding-bottom: 10px; }
+#footer .footer_right .impormation .po li { padding-bottom: 10px; }
+
+
+.gotop { width: 100px; object-fit: contain; position: fixed; right: 100px; bottom: 100px;  }
