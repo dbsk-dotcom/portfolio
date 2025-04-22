@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+#main .main_banner { margin-top: -50px; background: url(../image/main.jpg) no-repeat center center / cover; width: 1920px; height: 748px; }
+#main .main_banner h2 { padding: 150px 0 0 60px; }
+
+#main .news { max-width: 1700px; display: flex; justify-content: center; height: 300px; }
+
+#main .news .new { width: 320px;  background: #e4f7fe; }
+#main .news .new p { color: #888; border-top:  #999 0.7px solid; margin: 70px 180px -5px 80px; font-size: 14px; display: flex; justify-content: center; }
+#main .news .new h2 { font-size: 30px; padding: 50px 0 0 90px; }
+#main .news dl .speaker { display: flex; }
+#main .news dl .speaker img {  object-fit: cover; }
+#main .news dl dt  { background: url(../image/speaker.png) no-repeat 45px 36px ;background-size: 25px auto; font-weight: 700; padding: 40px 0 20px 80px; }
+#main .news dl dd { padding: 0 50px 15px 50px; }
+#main .news dl dd span { padding-left: 20px; color: #888; }
+#main .news dl .down {align-items: center;  }
+#main .news .bus {  width: calc((100% - 320px) / 3);  }
+#main .news .bus dl .up { display: flex; }
+#main .news .festival { background: #d7f3ff; width: calc((100% - 320px) / 3); }
+#main .news .guide { background: #b6eaff; width: calc((100% - 320px) / 3); }
+
+#main .poster { background: url(../image/poster.jpg)no-repeat center center / cover; width: 1920px; height: 1039px; }
+#main .poster .txt { padding: 30px 0 50px; }
+#main .poster p { color: #888; border-top:  #999 0.7px solid; margin: 10px 930px 40px; text-align: center; }
+#main .poster h2 { text-align: center; font-size: 40px; font-weight: 400; }
+
+#main .map { padding: 110px 0; }
+#main .map .inner { max-width: 1500px; display: flex; justify-content: space-between; align-items: center; }
+#main .map h2 { font-size: 30px; font-weight: 400; padding: 45px 0 40px 0;  }
+#main .map .m { color: #888; border-top:  #999 0.7px solid; margin: 0px 270px -5px 0; font-size: 14px; display: flex; justify-content: center; }
+#main .map .map_icon { cursor: pointer; display: flex;align-items: center; gap: 20px ;  }
+#main .map .map_icon p:hover { color: #0071b1; }
+#main .map .call_icon { cursor: pointer; padding-top: 20px; display: flex;align-items: center; gap: 20px;  }
+#main .map .call_icon p:hover { color: #0071b1; }
+#main .map .dire  { position: relative; }
+#main .map .img a { transition: all 0.5s; font-size: 20px; background: rgba(0, 0, 0, 0.7); position: absolute ; top: 0; left: 0;  width: 725px; height: 514px; text-align: center; align-items: center; padding-top: 250px; color: #fff; opacity: 0; cursor: pointer;  }
+#main .map .img:hover a { opacity: 1; }
+
+#main .time {  display: flex; justify-content: center;  }
+#main .time .table { position: relative; background: #40478f;padding: 0 50px 30px 50px; }
+#main .time .table .timeline img { padding: 80px 0 0 35px; margin-bottom: -80px; }
+#main .time .txt { padding: 80px 0 0; margin: 0 0 0 30px; }
+#main .time  .txt p { color: #fff; padding:0 0 30px; }
+#main .time  .txt h2 { font-size: 40px; font-weight: 400; color: #fff; padding-bottom: 75px; }
+#main .time .plan { background: #cbe6f9; padding: 0 50px 30px 50px; }
+#main .time .plan .txt img { padding: 80px 0 0 -10px; margin-left: -8px; }
+#main .time .plan .txt p {color: #3b4247;}
+#main .time .plan .txt h2 {color: #3b4247;}
+#main .time .schedule { background: #fdffe7; padding: 0 50px 50px 50px; }
+#main .time .schedule .txt img { padding-left: 5px; }
+#main .time .schedule .txt p { color: #44453b; }
+#main .time .schedule .txt h2 { color: #44453b; } 
+#main .time .schedule .timetable  { display: flex; justify-content: center; }
